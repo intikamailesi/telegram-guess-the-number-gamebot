@@ -1,0 +1,17 @@
+{
+  "name": "telegram-guess-a-number-bot",
+  "version": "1.0.0",
+  "description": "Guess a number game bot for Telegram.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Telegram"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.27.1"
+  }
+}
