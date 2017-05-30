@@ -1,16 +1,23 @@
 {
-  "name": "telegram-guess-a-number-bot",
+  "name": "telegram-guess-the-number-gamebot",
   "version": "1.0.0",
-  "description": "Guess a number game bot for Telegram.",
-  "main": "index.js",
+  "description": "Guess the number game bot for Telegram.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [
-    "Telegram"
+    "Telegram",
+    "Telegram bot",
+    "Guess the number game",
+    "Game",
+    "GameBot"
   ],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/star-collector/telegram-guess-the-number-gamebot.git"
+  },
   "dependencies": {
     "node-telegram-bot-api": "^0.27.1"
   }
